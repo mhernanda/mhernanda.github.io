@@ -1,0 +1,89 @@
+.bg-pink {
+    background-color: #7F0467 !important;
+}
+
+.text-pink {
+    color: #7F0467 !important;
+}
+
+#main-navbar a {
+    border-bottom: 5px solid #7F0467;
+    text-transform: uppercase;
+}
+
+#main-navbar .navbar-nav a:hover,
+#main-navbar .active {
+    border-bottom-color: white;
+    transition: border-color 500ms;
+}
+
+#showcase {
+    height: 600px;
+    background-image: url('../image/pexels-designecologist-1779487.jpg');
+    position: relative;
+    background-size: cover;
+    width: 100vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#showcase .text-title-sm {
+    margin-top: 45vh;
+}
+
+#showcase .text-title-md {
+    margin-top: 30vh;
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 600px;
+    width: 100%;
+}
+
+#main-about p {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 2.3rem;
+    font-size: 1.5rem;
+}
+
+#main-about .link-resume {
+    text-decoration: underline;
+    color: #17A2B8;
+}
+
+#main-employment .horizontal-line {
+    border-color: #7F0467;
+    margin-top: 5.5rem;
+    border-width: 3px;
+}
+
+.badge-pink {
+    color: #fff;
+    background-color: #7F0467;
+}
+
+.badge-white {
+    color: #7F0467;
+    background-color: #fff;
+}
+
+#main-portfolio img:hover {
+    transform: scale(1.1);
+    transition-property: transform;
+    transition-duration: .5s;
+}
+
+#main-education .horizontal-line {
+    border-color: #fff;
+    margin-top: 5.5rem;
+    border-width: 3px;
+}
+
+#main-footer {
+    padding: 4rem 0;
+}
